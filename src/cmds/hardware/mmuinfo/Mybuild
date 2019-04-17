@@ -1,0 +1,18 @@
+package embox.cmd
+
+@AutoCmd
+@Cmd(name = "mmuinfo",
+	help = "Print mmu information",
+	man = '''
+		NAME
+			mmuinfo - Print mmu information
+		SYNOPSIS
+			
+		DESCRIPTION
+			Detailed description.
+		AUTHORS
+			Bondarev Anton
+	''')
+module mmuinfo {
+	source "mmuinfo.c"
+}
